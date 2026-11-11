@@ -1,0 +1,6 @@
+{
+  "name": "دليل SQU - SQU Guide",
+  "description": "الدليل والخريطة التفاعلية الذكية لجامعة السلطان قابوس: استكشاف الكليات والقاعات والمرافق والتوجيه الداخلي عبر الباركود",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
