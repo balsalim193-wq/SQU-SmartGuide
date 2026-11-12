@@ -349,8 +349,8 @@ export const BusScheduleView: React.FC = () => {
           onClick={() => setShowOriginalImage(true)}
           className="cursor-pointer group relative rounded-2xl overflow-hidden border-2 border-dashed border-amber-200 bg-amber-50/30 flex justify-center items-center p-3 hover:bg-amber-50/60 transition"
         >
-          <img
-            src="/assets/aistudio/0978b639-016d-48eb-8504-7c10c782c240_dffa5bc5.jpeg"
+                   <img
+            src="/assets/bus_routes.jpeg"
             alt="جدول حافلات جامعة السلطان قابوس الأصلي - المسار الأحمر والمسار الأخضر"
             className="max-h-[460px] w-auto rounded-xl shadow-md group-hover:scale-[1.01] transition object-contain"
           />
