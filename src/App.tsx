@@ -254,7 +254,7 @@ export default function App() {
                   {/* Official Emblem Logo */}
                   <div className="w-20 h-20 md:w-24 md:h-24 rounded-3xl bg-white p-1.5 shadow-2xl border-2 border-[#D4AF37] flex-shrink-0 flex items-center justify-center">
                     <img 
-                      src="/assets/squ_emblem.jpeg" 
+                      src="/assets/aistudio/squ_emblem.jpeg" 
                       alt="شعار دليل SQU الذكي" 
                       className="w-full h-full object-contain"
                     />
