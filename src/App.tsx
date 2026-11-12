@@ -297,6 +297,15 @@ export default function App() {
                   </button>
 
                   <button
+  onClick={() => setActiveTab('bus')}
+  className="bg-gradient-to-r from-red-600 to-emerald-600 hover:opacity-95 text-white font-black text-xs py-2.5 px-4 rounded-2xl shadow-xl transition flex items-center gap-2 active:scale-95 border border-white/30"
+  title="استعراض المسار الأحمر والأخضر للحافلات"
+>
+  <Bus className="w-4 h-4" />
+  <span>حافلات الجامعة (أحمر وأخضر) 🚌</span>
+</button>
+                  
+                  <button
                     onClick={() => setActiveTab('qr')}
                     className="bg-white/95 hover:bg-white text-[#082F49] font-bold text-xs py-2.5 px-4 rounded-2xl shadow-lg transition flex items-center gap-2 active:scale-95 border border-white/40"
                   >
