@@ -568,20 +568,6 @@ export default function App() {
           <span className="text-[10px]">الخريطة</span>
         </button>
 
-        <button
-          onClick={() => setActiveTab('bus')}
-          className={`flex flex-col items-center gap-1 py-1 px-3 rounded-2xl transition relative ${
-            activeTab === 'bus' ? 'text-red-600 font-black' : 'text-slate-700 font-bold'
-          }`}
-        >
-          <span className="relative">
-            <Bus className="w-5 h-5 text-red-600" />
-            <span className="absolute -top-1 -right-1 w-2.5 h-2.5 rounded-full bg-emerald-500 border border-white"></span>
-          </span>
-          <span className="text-[10px]">الحافلات 🚌</span>
-        </button>
-
-        <button
           onClick={() => setActiveTab('directory')}
           className={`flex flex-col items-center gap-1 py-1 px-3 rounded-2xl transition ${
             activeTab === 'directory' ? 'text-[#082F49] font-black' : 'text-slate-500 font-medium'
